@@ -25,6 +25,7 @@ import ResourceComponent from './resource/Resource';
 import TextAreaComponent from './textarea/TextArea';
 import TagsComponent from './tags/Tags';
 import ButtonComponent from './button/Button';
+import PrintTemplateButtonComponent from './templateprint/PrintTemplateButton';
 import NumberComponent from './number/Number';
 import PasswordComponent from './password/Password';
 import PanelComponent from './panel/Panel';
@@ -68,6 +69,7 @@ export default {
   textarea: TextAreaComponent,
   tags: TagsComponent,
   button: ButtonComponent,
+  PrintTemplateButton: PrintTemplateButtonComponent,
   number: NumberComponent,
   password: PasswordComponent,
   panel: PanelComponent,

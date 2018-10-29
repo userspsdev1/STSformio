@@ -2,6 +2,7 @@ import Components from '.';
 
 import AddressForm from './address/Address.form';
 import ButtonForm from './button/Button.form';
+import PrintTemplateButtonForm from './templateprint/PrintTemplateButton.form';
 import CheckboxForm from './checkbox/Checkbox.form';
 import ColumnsForm from './columns/Columns.form';
 import ContainerForm from './container/Container.form';
@@ -39,6 +40,7 @@ import WellForm from './well/Well.form';
 
 Components.address.editForm = AddressForm;
 Components.button.editForm = ButtonForm;
+Components.PrintTemplateButton.editForm = PrintTemplateButtonForm;
 Components.checkbox.editForm = CheckboxForm;
 Components.columns.editForm = ColumnsForm;
 Components.container.editForm = ContainerForm;
